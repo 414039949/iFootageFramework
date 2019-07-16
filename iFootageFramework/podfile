@@ -1,0 +1,11 @@
+platform :ios, '8.0'
+use_frameworks!
+target 'iFootageFramework' do
+pod 'AFNetworking', '~> 3.1.0'
+pod 'JPush', '3.0.2'
+pod 'Masonry', '~> 1.0.2'
+pod         'LuaScriptCore',                '2.2.1'
+pod 'ReactiveCocoa', :git => 'https://github.com/zhao0/ReactiveCocoa.git', :tag => '2.5.2'
+
+end
+xcodeproj './iFootageFramework.xcodeproj'

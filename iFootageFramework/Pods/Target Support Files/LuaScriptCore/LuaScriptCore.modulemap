@@ -1,0 +1,6 @@
+framework module LuaScriptCore {
+  umbrella header "LuaScriptCore-umbrella.h"
+
+  export *
+  module * { export * }
+}

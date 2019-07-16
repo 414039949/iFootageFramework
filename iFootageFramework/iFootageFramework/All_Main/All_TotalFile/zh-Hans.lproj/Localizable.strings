@@ -1,0 +1,155 @@
+/* 
+  Localizable.strings
+  iFootage
+
+  Created by 黄品源 on 2017/8/14.
+  Copyright © 2017年 iFootage. All rights reserved.
+*/
+
+"NoAcountLogin"         = "离线登录";
+
+"Timeline Control"  = "关键帧模式";
+
+"Manual Control"    = "手动模式";
+"Target Control"    = "聚焦模式";
+"Stitching"         = "全景模式";
+"Settings"          = "设置";
+"Community"         = "社区";
+"new"               = "新建";
+"toBeContinued"     = "敬请期待...";
+"MainMenu"               = "主页";
+"KeyFrame_Savedpath"     = "保存路径";
+"KeyFrame_PreviousPath" = "上一次";
+"KeyFrame_delete" = "删除";
+"MJRefresh_PULL" = "下拉刷新";
+"MJRefresh_Refresh" = "刷新";
+"Scan_BluetoothList" = "蓝牙列表";
+"Scan_Rename" = "重命名";
+
+"MainVC_S1updateSlogan" = "1、固件升级到2.0版本\r\n2、适配iPhoneXR、iPhoneXS、iPhoneXS Max \r\n3、修复已知bug\r\n(注：请务必更新固件)";
+"MainVC_X2updateSlogan" = "1、固件升级到2.0版本\r\n2、适配iPhoneXR、iPhoneXS、iPhoneXS Max \r\n3、修复已知bug\r\n(注：请务必更新固件)";
+
+
+"MainVC_Warning" = "警告!!!";
+"MainVC_ReturnError" = "X2 mini 回零失败";
+
+
+
+"2.4GWarningUnsynchronized" = "信号未同步";
+"checkReturnZeroIsOnSlider" = "请将X2mini放在导轨上回零";
+"checkAllConnected" = "请务必确认X2nimi和Slidermini都连接上";
+
+"MatchingEquipment" = "正在配对设备";
+"MatchingSuccess" = "配对成功";
+"MatchingFailure" = "配对失败";
+
+
+//
+
+"Timeline_VideoTimeWaring" = "运行时间过短请将时间设置在%.0lfs以上";
+//"Timeline"
+
+"Timeline_HasFinishedMaking" = "已经制作完成";
+"Timeline_SavedAndNamed" = "保存并命名";
+"Timeline_EnterPlaceSlogan" = "请在这里输入:";
+"Timeline_OK" = "确定";
+"Timeline_Cancel" = "取消";
+
+"Timeline_EnterNameSlogan" = "请输入名称";
+//电量报警
+"Timeline_PowerAlarm" = "当前电量无法完成整个运行， 请更换电池或接入USB";
+"Timeline_NoDeviceWarning" = "找不到设备";
+"Timeline_Preparing" = "准备中...";
+"Timeline_ReturnZero" = "回零中...";
+"Timeline_HasFinished" = "已经完成";
+"Timeline_AddRightFramesWarning" = "请添加正确的关键帧";
+"Timeline_WarmTips" = "温馨提示";
+"Timeline_ReturnToStart" = "回到起点";
+
+
+
+//TargetControl
+"Target_Running" = "开始运行...";
+"Target_Preparing" = "准备中";
+"Target_AngelError" = "角度设置错误!!!";
+
+"Target_ABNoSettings" = "AB点未设置";
+"Target_ANoSettings" = "A点未设置";
+
+"Target_BNoSettings" = "B点未设置";
+
+//Settings
+"Setting_Updatefirmware" = "更新固件";
+"Setting_NoUpdates" = "没有更新";
+"Setting_S1Disconnected" = "Slide module 未连接";
+"Setting_X2Disconnected" = "X2 mini 未连接";
+"Setting_Stop" = "停止";
+"Settint_Notice" = "提示:如果出现长时间进度条不动,请按停止键之后重新升级,必要的时候重启App";
+"Setting_ShootingMode" = "延时拍摄模式";
+"Setting_DisplayUnit" = "播放指示器";
+"Setting_NumberofTrackInstalled" = "导轨对接节数";
+"Setting_sectionsNumber" = "节数";
+"Setting_notice" = "注意";
+"Setting_Selectunit" = "选择设备";
+"Setting_Cancel" = "取消";
+
+"Stiching_CameraSensor" = "传感器尺寸";
+"Stiching_AspectRation" = "相片比例";
+"Stiching_FocalLength" = "镜头焦距(mm)";
+"Stiching_Interval" = "间隔时间(s)";
+"Stiching_Grid" = "矩阵模式";
+"Stiching_Pano" = "全景模式";
+"Stiching_Pictures" = "拍摄张数";
+"Stiching_RunTime" = "运行时间";
+
+
+
+"LoginVC_SignIn" = "登录";
+"LoginVC_EmailAddress" = "邮箱地址";
+"LoginVC_Password" = "密码";
+"LoginVC_ForgotPassword" = "忘记密码？";
+"LoginVC_SignUp" = "注册";
+"LoginVC_NOaccount" = "还没有注册账号?";
+"LoginVC_EmailNull" = "邮箱不能为空！";
+"LoginVC_PasswordNull" = "密码不能为空！";
+"LoginVC_waiting" = "稍等...";
+"LoginVC_LoginFailed" = "登录失败";
+
+
+"SignUpVC_SignUp" = "注册";
+"SignUpVC_EmailAddress" = "邮箱地址";
+"SignUpVC_VerificationCode" = "验证码";
+"SignUpVC_GetCode" = "获取验证码";
+"SignUpVC_Password" = "输入密码";
+"SignUpVC_ConfirmPassword" = "再次验证密码";
+"SignUpVC_HaveAccount" = "已经注册过账号";
+"SignUpVC_SignIn" = "去登录";
+"SignUpVC_EmailNull" = "邮箱不能为空";
+"SignUpVC_Error" = "错误";
+"SignUpVC_resend" = "重新获取";
+"SignUpVC_CodeNULL" = "验证码不能为空";
+
+"ForgotPwdVC_ForgotPassword" = "忘记密码";
+"ForgotPwdVC_EmailAddress" = "邮箱地址";
+"ForgotPwdVC_Verification" = "验证码";
+"ForgotPwdVC_GetCode" = "获取验证码";
+"ForgotPwdVC_Password" = "输入密码";
+"ForgotPwdVC_Next" = "下一步";
+"ForgotPwdVC_Cancel" = "取消";
+"ForgotPwdVC_EmailNULL" = "邮箱不能为空";
+"ForgotPwdVC_error" = "错误";
+"ForgotPwdVC_resend" = "重新获取";
+
+"LeftVC_logout" = "退出登录";
+"Tutorials" = "教程";
+
+
+//更新提示
+"Main_UpdateCancel"          = "不再提示";
+"Main_UpdateOK"              = "去更新";
+
+"Main_isRunningTimeline" = "正在运行关键帧模式";
+"Main_isRunningTargetControl" = "正在运行聚焦模式";
+"Main_isRunningGigaplexl" = "正在运行矩阵模式";
+"Main_isRunningPanorama"  = "正在运行矩阵模式";
+

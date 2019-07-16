@@ -1,0 +1,163 @@
+/* 
+  Localizable.strings
+  iFootage
+
+  Created by 黄品源 on 2017/8/14.
+  Copyright © 2017年 iFootage. All rights reserved.
+*/
+
+
+
+//主界面6个按钮的Title
+//"mainVC"
+
+"NoAcountLogin"         = "Offline login";
+"Timeline Control"      = "Timeline Control";
+"Manual Control"        = "Manual Control";
+"Target Control"        = "Target Control";
+"Stitching"             = "Stitching";
+"Settings"              = "Settings";
+"Community"             = "Community";
+"new"                   = "new";
+"toBeContinued"         = "Coming soon...";
+"MainMenu"              = "Main Menu";
+"KeyFrame_Savedpath"    = "Saved path";
+"KeyFrame_PreviousPath" = "Previous path";
+"KeyFrame_delete"       = "delete";
+
+"MJRefresh_PULL"        = "pull-to-refresh";
+"MJRefresh_Refresh"     = "Refresh";
+
+"Scan_BluetoothList"    = "Bluetooth connection list";
+"Scan_Rename" = "Rename";
+
+"MainVC_S1updateSlogan" = "1. Firmware update to 2.0 version.\r\n2.Adapt to iPhoneXR, iPhoneXS, iPhoneXS Max.\r\n3. Bug fixed.\r\n(Note: Please must update the firmware!)";
+"MainVC_X2updateSlogan" = "1. Firmware update to 2.0 version.\r\n2.Adapt to iPhoneXR, iPhoneXS, iPhoneXS Max.\r\n3. Bug fixed.\r\n(Note: Please must update the firmware!)";
+
+//1.update the  firmware  verison to 2.0     3.renovate  bugs
+"MainVC_Warning"        = "Warning!!!";
+"MainVC_ReturnError"    = "X2 mini back to zero point failed";
+"2.4GWarningUnsynchronized" = "Signal is not synchronized";
+"checkReturnZeroIsOnSlider" = "Please wait whilst X2 Mini initiates";
+"checkAllConnected"     = "Please make sure X2 mini and Slide Module are connected";
+"MatchingEquipment"     = "Connecting";
+"MatchingSuccess"       = "Matching success";
+"MatchingFailure"       = "Matching failure";
+
+//"Timeline"
+
+"Timeline_VideoTimeWaring"  = "Runtime too short please set the time above %.0lfs";
+
+"Timeline_HasFinishedMaking"= "Has finished making";
+"Timeline_SavedAndNamed"    = "Save and Named";
+"Timeline_EnterPlaceSlogan" = "Enter here:";
+"Timeline_OK"               = "OK";
+"Timeline_Cancel"           = "Cancel";
+
+"Timeline_EnterNameSlogan"  = "Enter path name";
+//电量报警
+"Timeline_PowerAlarm"       = "The current capacity will not be able to complete all operation please be fully charged";
+"Timeline_NoDeviceWarning"  = "Can't find the device";
+
+"Timeline_Preparing"        = "Preparing";
+"Timeline_ReturnZero"       = "Is back to zero...";
+"Timeline_HasFinished"      = "Has finished";
+"Timeline_AddRightFramesWarning" = "Please Add the correct key frames";
+"Timeline_WarmTips"         = "warm Tips";
+"Timeline_ReturnToStart" = "Return to start point";
+
+
+
+//TargetControl
+"Target_Running"      = "Running";
+"Target_Preparing"    = "Preparing";
+"Target_AngelError"   = "Angle error!!!";
+"Target_ABNoSettings" = "AB no set";
+"Target_ANoSettings"  = "A no set";
+"Target_BNoSettings"  = "B no set";
+
+
+
+//Settings
+"Setting_Updatefirmware" = "Update firmware";
+"Setting_NoUpdates"      = "No updates";
+"Setting_S1Disconnected" = "Slide module is disconnected";
+"Setting_X2Disconnected" = "X2 mini is disconnected";
+"Setting_Stop"           = "Stop";
+"Settint_Notice" = "Tims:If the progress bar doesn't move for a long time, please press stop and re-upgrade, restart the application if necessary";
+
+"Setting_ShootingMode"   = "Shooting Mode";
+"Setting_DisplayUnit"    = "Display Unit";
+"Setting_NumberofTrackInstalled" = "Number of track installed";
+"Setting_sectionsNumber" = "sectionsNumber";
+"Setting_notice"         = "notice";
+"Setting_Selectunit"     = "Select unit";
+"Setting_Cancel"         = "Cancel";
+
+
+"Stiching_CameraSensor"  = "Camera Sensor";
+"Stiching_AspectRation"  = "Aspect Ration";
+"Stiching_FocalLength"   = "Focal Length(mm)";
+"Stiching_Interval"      = "Interval(s)";
+"Stiching_Grid"          = "Grid";
+"Stiching_Pano"          = "Panoramic";
+"Stiching_Pictures"      = "Pictures";
+"Stiching_RunTime"       = "Run time";
+
+
+
+"LoginVC_SignIn"         = "Sign in";
+"LoginVC_EmailAddress"   = "Email Address";
+"LoginVC_Password"       = "Password";
+"LoginVC_ForgotPassword" = "Forgot password?";
+"LoginVC_SignUp"         = "Sign up";
+"LoginVC_NOaccount"      = "Don't have an account?";
+"LoginVC_EmailNull"      = "Email cannot be empty";
+"LoginVC_PasswordNull"   = "Password cannot be empty";
+"LoginVC_waiting"        = "waiting...";
+"LoginVC_LoginFailed"    = "Login failed";
+
+
+"SignUpVC_SignUp"           = "Sign Up";
+"SignUpVC_EmailAddress"     = "Email Address";
+"SignUpVC_VerificationCode" = "Verification";
+"SignUpVC_GetCode"          = "Get Code";
+"SignUpVC_Password"         = "Password";
+"SignUpVC_ConfirmPassword"  = "Confirm Password";
+"SignUpVC_HaveAccount"      = "Already have an account?";
+"SignUpVC_SignIn"           = "Sign In";
+"SignUpVC_EmailNull"        = "Email cannot be empty";
+"SignUpVC_Error"            = "error";
+"SignUpVC_resend"           = "resend";
+"SignUpVC_CodeNULL"         = "Code cannot be empty";
+
+"ForgotPwdVC_ForgotPassword" = "Forgot Password";
+"ForgotPwdVC_EmailAddress"   = "Email Address";
+"ForgotPwdVC_Verification"   = "Verification";
+"ForgotPwdVC_GetCode"        = "Get Code";
+"ForgotPwdVC_Password"       = "Password";
+"ForgotPwdVC_Next"           = "Next";
+"ForgotPwdVC_Cancel"         = "Cancel";
+"ForgotPwdVC_EmailNULL"      = "Email cannot be empty";
+"ForgotPwdVC_error"          = "error";
+"ForgotPwdVC_resend"         = "resend";
+
+
+"LeftVC_logout"              = "logout";
+"Tutorials"                  = "Tutorials";
+
+
+//更新提示
+"Main_UpdateCancel"          = "Cancel";
+"Main_UpdateOK"              = "Update";
+
+
+"Main_isRunningTimeline" = "Timeline is running";
+"Main_isRunningTargetControl" = "Target Control is running";
+"Main_isRunningGigaplexl" = "Gigaplexl is running";
+"Main_isRunningPanorama"  = "Panorama is running";
+
+
+
+
+

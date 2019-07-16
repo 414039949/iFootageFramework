@@ -1,0 +1,340 @@
+//
+//  iFHeader.pch
+//  iFootage
+//
+//  Created by 黄品源 on 16/6/11.
+//  Copyright © 2016年 iFootage. All rights reserved.
+//
+
+#ifndef iFHeader_pch
+#define iFHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* iFHeader_pch */
+
+
+
+
+//#ifdef DEBUG
+//#define LOG(...) NSLog(__VA_ARGS__);
+//#define LOG_METHOD NSLog(@"%s", __func__);
+//#else
+//#define LOG(...);
+//#define LOG_METHOD;
+//#endif
+
+
+//#import <UIKit/UIKit.h>
+#import "iFBezierHeader.h"
+#import "iFModelDefine.h"
+#import "iFPrefixDefine.h"
+#import "iFNetWorkHeader.h"
+#import "iFAllImageNameDefine.h"
+
+
+#define PASSWORD @"170317170317"
+#define IS_Mini 1
+
+#define IPHONE_X \
+({BOOL isPhoneX = NO;\
+if (@available(iOS 11.0, *)) {\
+isPhoneX = [[UIApplication sharedApplication] delegate].window.safeAreaInsets.bottom > 0.0;\
+}\
+(isPhoneX);})
+
+
+#define IsiPhoneXr ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(828, 1792), [[UIScreen mainScreen] currentMode].size) : NO)
+#define IsiPhoneXSmax ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1242, 2688), [[UIScreen mainScreen] currentMode].size) : NO)
+
+
+#define kDevice_Is_iPhoneX ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1125, 2436), [[UIScreen mainScreen] currentMode].size) : NO)
+#define kDevice_Is_iPad [[UIDevice currentDevice].model isEqualToString:@"iPad"]
+
+
+#define AutoKScreenHeight (kScreenHeight > kScreenWidth ? kScreenHeight : kScreenWidth)
+#define AutoKscreenWidth (kScreenWidth < kScreenHeight ? kScreenWidth : kScreenHeight)
+#define kScreenWidth [UIScreen mainScreen].bounds.size.width
+#define kScreenHeight [UIScreen mainScreen].bounds.size.height
+#define iFSize(x) (AutoKScreenHeight > AutoKscreenWidth ? x / 667.0f * AutoKScreenHeight : x / 667.0f * AutoKscreenWidth)
+
+#define iFWIDTH(x) x / 375.0f * kScreenWidth
+#define iFHEIGHT(x) x / 667.0f * kScreenHeight
+
+#define COLOR(R, G, B, A) [UIColor colorWithRed:R/255.0 green:G/255.0 blue:B/255.0 alpha:A]
+#define DEGREE(x)   (x / 180.0f) * M_PI
+
+#define  RotaSizeWidth kScreenWidth
+#define  RotaSizeHeight kScreenHeight
+#define iFRotaWidth(x) x / RotaSizeWidth * 667.0f
+#define iFRotaHeight(x) x / 375.0f * RotaSizeHeight
+#define CGRect(a, b, c, d) CGRectMake(iFRotaWidth(a), iFRotaHeight(b), iFRotaWidth(c), iFRotaHeight(d))
+
+#define iFCGRect(a, b, c, d) CGRectMake(iFWIDTH(a), iFHEIGHT(b), iFWIDTH(c), iFHEIGHT(d))
+#define iFSizeRect(a, b, c, d) CGRectMake(iFSize(a), iFSize(b), iFSize(c), iFSize(d)
+
+#define iFFrame(x) kScreenHeight > kScreenWidth ? x /  kScreenHeight * 667.0f: x /  kScreenWidth * 667.0f
+#define iFXXXSize(x) kScreenHeight > kScreenWidth ? x / 667.0f * kScreenHeight : x / 667.0f * kScreenWidth
+
+
+#define SLIDERINDENTEFIER @"2021"
+#define X2INDETEFIER @"2121"
+
+
+#define S1A3_SLIDERINDENTERFIER @"2525"
+#define S1A3_X2INDETIFER @"2626"
+
+
+#define SLIDEName @"Slide"
+#define TILTName @"Tilt"
+#define PanName @"Pan"
+
+#define CBSLIDE appDelegate.bleManager.sliderCB
+#define CBPanTilt appDelegate.bleManager.panCB
+
+
+#define CBS1A3_S1 appDelegate.bleManager.S1A3_S1CB
+#define CBS1A3_X2 appDelegate.bleManager.S1A3_X2CB
+#define SendStr [self stringToHex:@"0000000000"]
+
+
+#define OXAAAF 0xAAAF
+#define OX555F 0x555F
+
+#define FMBA 0xBA
+#define FM65 0x65
+//接受间隔时间
+#define ReceiveSecond 0.05f
+
+
+#define TheOneSlideLength 377.0f
+#define TheFirstItem 210.0
+#define S1A3_TrackFirstItem 450.0f
+#define S1A3_OneTrackLenth 560.0f
+#define SlideConunt(n) (TheFirstItem + (n - 1) * TheOneSlideLength)
+#define S1A3_TrackNumber(n) (S1A3_TrackFirstItem + (n - 1) * S1A3_OneTrackLenth)
+
+#define TiltMaxValue 35.0f
+#define TiltMinValue -35.0f
+
+#define PanMaxValue 360.0f
+#define PanMinValue -360.0f
+
+
+#define S1A3_PanMaxValue 360.0f
+#define S1A3_TiltMaxValue 360.0f
+#define S1A3_PanMinValue -360.0f
+#define S1A3_TiltMinValue -360.0f
+
+
+#define X2KEY @"X2"
+#define S1KEY @"Slider"
+#define S1A3_X2KEY @"S1A3_X2"
+#define S1A3_S1KEY @"S1A3_S1"
+
+
+#define S1ID @"Slidermini"
+#define X2ID @"X2mini"
+#define IFootagePreFIX @"iFootage"
+#define S1A3_IFootagePreFIX @"iFootage_Shark"
+
+
+#define IFootagePLISTSufFIX @"ifdict.plist"
+#define IFootageCBLISTSufFIX @"cblist.plist"
+
+#define ACTIVESLIDER @"activeSlide"
+#define ACTIVEX2 @"activeX2"
+
+//#define NSSTRING(str)         [NSString stringWithFormat:@"%@", str]
+
+//#define _iFNSString(A) _([NSString stringWithFormat:@"%@_c", A])
+
+#define _iFNSString(A, B) _iFNSString(([NSString stringWithFormat:@"%@_c", A]), B)
+
+#define kCBADVDATALOCALNAME @"kCBAdvDataLocalName"
+#define kCBADVDATAMANUFACTURERDATA @"kCBAdvDataManufacturerData"
+#define PLISTPRXKeyFrameCurveList @"KeyFrameCurveList"
+
+#define ProperKeyFrameList @"keyframeCurvelist.plist"
+#define S1A3_ProperKeyFrameList @"S1A3_ProperKeyFrameList.plist"
+#define TARGETModelList @"TargetModelList.plist"
+#define S1A3_TargetModelList @"S1A3_TargetModelList.plist"
+
+#define SlideValueTag 11111
+#define PanValueTag 22222
+#define TiltValueTag 33333
+#define SlideVelocMaxValue 50.0f
+#define PanVelocMaxValue 30.0f
+#define TiltVelocMaxValue 15.0f
+
+
+#define S1A3_SlideVelocMaxValue 160.0f
+#define S1A3_PanVelocMaxValue 40.0f
+#define S1A3_TiltVelocMaxValue 40.0f
+
+//更新的宏定义文件名称和版本号
+#define X2BINNAME @"Secret_X2_V_2.0"
+#define SLIDEBINNAME @"Secret_Slider_V_2.0"
+#define S1A3_S1_BINNAME @"Secret_Shark_Slider_V_0.4"
+#define S1A3_X2_BINNAME @"Secret_Shark_X2_V_0.4"
+
+#define X2VersionNum 0x14
+#define S1VersionNum 0x14
+
+
+#define S1A3_S1VersionNum 0x01
+#define S1A3_X2VersionNum 0x01
+
+
+#define SlideCurveValue @"slidecurvevalue"
+#define PanCurveValue @"pancurvevalue"
+#define TiltCurveValue @"tiltcurvevalue"
+
+#define LoginStauts @"islogin"
+#define S1A3orMiniID @"S1A3orMini"
+
+#define All_TimelineControl  @"Timeline Control"
+#define All_ManualControl  @"Manual Control"
+#define All_TargetControl @"Target Control"
+#define All_Stitching @"Stitching"
+#define All_Community @"Community"
+#define All_MainMenu @"MainMenu"
+#define All_Settings @"Settings"
+
+#define Scan_BluetoothList @"Scan_BluetoothList"
+#define Scan_Rename @"Scan_Rename"
+
+#define Community_toBeContinued @"toBeContinued"
+#define KeyFrame_new @"new"
+#define KeyFrame_Savedpath @"KeyFrame_Savedpath"
+#define KeyFrame_PreviousPath @"KeyFrame_PreviousPath"
+#define KeyFrame_delete @"KeyFrame_delete"
+#define MJRefresh_PULL @"MJRefresh_PULL"
+#define MJRefresh_Refresh @"MJRefresh_Refresh"
+
+
+
+
+#define isReturnOnSliderWarning @"checkReturnZeroIsOnSlider"
+#define isAllConnectedWarning @"checkAllConnected"
+#define isSynchronizedWarning @"2.4GWarningUnsynchronized"
+
+#define MatchingEquipmentTips @"MatchingEquipment"
+#define MatchingSuccessTips @"MatchingSuccess"
+#define MatchingFailureTips @"MatchingFailure"
+
+#define MainVC_S1updateSlogan @"MainVC_S1updateSlogan"
+#define MainVC_X2updateSlogan @"MainVC_X2updateSlogan"
+#define MainVC_Warning @"MainVC_Warning"
+#define MainVC_ReturnError @"MainVC_ReturnError"
+
+#define Timeline_VideoTimeWaring @"Timeline_VideoTimeWaring"
+#define Timeline_HasFinishedMaking @"Timeline_HasFinishedMaking"
+#define Timeline_SavedAndNamed @"Timeline_SavedAndNamed"
+#define Timeline_EnterPlaceSlogan @"Timeline_EnterPlaceSlogan"
+#define Timeline_EnterNameSlogan @"Timeline_EnterNameSlogan"
+#define Timeline_PowerAlarm @"Timeline_PowerAlarm"
+#define Timeline_NoDeviceWarning @"Timeline_NoDeviceWarning"
+#define Timeline_Preparing @"Timeline_Preparing"
+#define Timeline_ReturnZero @"Timeline_ReturnZero"
+#define Timeline_HasFinished @"Timeline_HasFinished"
+#define Timeline_AddRightFramesWarning @"Timeline_AddRightFramesWarning"
+#define Timeline_WarmTips @"Timeline_WarmTips"
+#define Timeline_ReturnToStart @"Timeline_ReturnToStart"
+#define Timeline_OK @"OK"
+#define Timeline_Cancel @"Cancel"
+
+
+#define Target_Running @"Target_Running"
+#define Target_Preparing @"Target_Preparing"
+#define Target_AngelError @"Target_AngelError"
+
+#define Target_ABNoSettings @"Target_ABNoSettings"
+#define Target_ANoSettings @"Target_ANoSettings"
+#define Target_BNoSettings @"Target_BNoSettings"
+
+
+#define Setting_Updatefirmware @"Setting_Updatefirmware"
+#define Setting_NoUpdates @"Setting_NoUpdates"
+#define Setting_S1Disconnected @"Setting_S1Disconnected"
+#define Setting_X2Disconnected @"Setting_X2Disconnected"
+#define Setting_Stop @"Setting_Stop"
+#define Settint_Notice @"Settint_Notice"
+
+
+#define Setting_ShootingMode @"Setting_ShootingMode"
+#define Setting_DisplayUnit @"Setting_DisplayUnit"
+#define Setting_NumberofTrackInstalled @"Setting_NumberofTrackInstalled"
+#define Setting_sectionsNumber @"Setting_sectionsNumber"
+#define Setting_notice @"Setting_notice"
+#define Setting_Selectunit @"Setting_Selectunit"
+
+#define Stiching_CameraSensor @"Stiching_CameraSensor"
+#define Stiching_AspectRation @"Stiching_AspectRation"
+#define Stiching_FocalLength @"Stiching_FocalLength"
+#define Stiching_Interval @"Stiching_Interval"
+#define Stiching_Grid @"Stiching_Grid"
+#define Stiching_Pano @"Stiching_Pano"
+#define Stiching_Pictures @"Stiching_Pictures"
+#define Stiching_RunTime @"Stiching_RunTime"
+
+
+
+/*"Setting_ShootingMode" = "拍摄模式";
+"Setting_DisplayUnit" = "Display Unit";
+"Setting_NumberofTrackInstalled" = "导轨对接节数";
+"Setting_sectionsNumber" = "节数";
+"Setting_notice" = "注意";*/
+
+
+#define LoginVC_SignIn @"LoginVC_SignIn"
+#define LoginVC_EmailAddress @"LoginVC_EmailAddress"
+#define LoginVC_Password @"LoginVC_Password"
+#define LoginVC_ForgotPassword @"LoginVC_ForgotPassword"
+#define LoginVC_SignUp @"LoginVC_SignUp"
+#define LoginVC_NOaccount @"LoginVC_NOaccount"
+#define LoginVC_EmailNull @"LoginVC_EmailNull"
+#define LoginVC_PasswordNull @"LoginVC_PasswordNull"
+#define LoginVC_waiting @"LoginVC_waiting"
+#define LoginVC_LoginFailed @"LoginVC_LoginFailed"
+
+#define SignUpVC_SignUp @"SignUpVC_SignUp"
+#define SignUpVC_EmailAddress @"SignUpVC_EmailAddress"
+#define SignUpVC_VerificationCode @"SignUpVC_VerificationCode"
+#define SignUpVC_GetCode @"SignUpVC_GetCode"
+#define SignUpVC_Password @"SignUpVC_Password"
+#define SignUpVC_ConfirmPassword @"SignUpVC_ConfirmPassword"
+#define SignUpVC_HaveAccount @"SignUpVC_HaveAccount"
+#define SignUpVC_SignIn @"SignUpVC_SignIn"
+#define SignUpVC_EmailNull @"SignUpVC_EmailNull"
+#define SignUpVC_Error @"SignUpVC_Error"
+#define SignUpVC_resend @"SignUpVC_resend"
+#define SignUpVC_CodeNULL @"SignUpVC_CodeNULL"
+
+#define ForgotPwdVC_ForgotPassword @"ForgotPwdVC_ForgotPassword"
+#define ForgotPwdVC_EmailAddress @"ForgotPwdVC_EmailAddress"
+#define ForgotPwdVC_Verification @"ForgotPwdVC_Verification"
+#define ForgotPwdVC_GetCode @"ForgotPwdVC_GetCode"
+#define ForgotPwdVC_Password @"ForgotPwdVC_Password"
+#define ForgotPwdVC_Next @"ForgotPwdVC_Next"
+#define ForgotPwdVC_Cancel @"ForgotPwdVC_Cancel"
+#define ForgotPwdVC_EmailNULL @"ForgotPwdVC_EmailNULL"
+#define ForgotPwdVC_error @"ForgotPwdVC_error"
+#define ForgotPwdVC_resend @"ForgotPwdVC_resend"
+
+#define LeftVC_logout @"LeftVC_logout"
+#define Tutorials @"Tutorials"
+//"Main_UpdateCancel"          = "Cancel";
+//"Main_UpdateOK"
+#define Main_UpdateCancel @"Main_UpdateCancel"
+#define Main_UpdateOK @"Main_UpdateOK"
+
+#define Main_isRunningTimeline @"Main_isRunningTimeline"
+#define Main_isRunningTargetControl @"Main_isRunningTargetControl"
+#define Main_isRunningGigaplexl @"Main_isRunningGigaplexl"
+#define Main_isRunningPanorama @"Main_isRunningPanorama"
+
+
+
+

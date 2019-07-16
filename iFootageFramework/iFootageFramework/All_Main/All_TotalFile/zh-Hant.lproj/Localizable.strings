@@ -1,0 +1,145 @@
+/* 
+  Localizable.strings
+  iFootage
+
+  Created by 黄品源 on 2017/8/14.
+  Copyright © 2017年 iFootage. All rights reserved.
+*/
+
+"NoAcountLogin"         = "離線登錄";
+
+"Timeline Control" = "關鍵幀模式";
+
+"Manual Control" = "手動模式";
+"Target Control" = "聚焦模式";
+"Stitching" = "全景模式";
+"Settings" = "設置";
+"Community" = "社區";
+"new" = "新建";
+"toBeContinued" = "敬請期待...";
+"MainMenu" = "主頁";
+"KeyFrame_Savedpath" = "保存路徑";
+"KeyFrame_PreviousPath" = "上一次";
+"KeyFrame_delete" = "刪除";
+"MJRefresh_PULL" = "下拉刷新";
+"MJRefresh_Refresh" = "刷新";
+
+"Scan_BluetoothList" = "藍牙列表";
+"Scan_Rename" = "重命名";
+
+"MainVC_S1updateSlogan" = "1、固件升級到2.0版本\r\n2、適配iPhoneXR、iPhoneXS、iPhoneXS Max\r\n3、修復已知bug\r\n(注：請務必更新固件)";
+"MainVC_X2updateSlogan" = "1、固件升級到2.0版本\r\n2、適配iPhoneXR、iPhoneXS、iPhoneXS Max\r\n3、修復已知bug\r\n(注：請務必更新固件)";
+"MainVC_Warning" = "警告!!!";
+"MainVC_ReturnError" = "X2 mini 回零失敗";
+
+
+"2.4GWarningUnsynchronized" = "信號未同步";
+"checkReturnZeroIsOnSlider" = "請將X2mini放在導軌上回零";
+"checkAllConnected" = "請務必確認X2mini和Sldiermini都連接上";
+
+"MatchingEquipment" = "正在配對設備";
+"MatchingSuccess" = "配對成功";
+"MatchingFailure" = "配對失敗";
+
+//"Timeline"
+"Timeline_VideoTimeWaring" = "運行時間果斷請將時間設置在%.0lfs以上";
+"Timeline_HasFinishedMaking" = "已經製作完成";
+"Timeline_SavedAndNamed" = "保存并命名";
+"Timeline_EnterPlaceSlogan" = "請在這裡輸入:";
+"Timeline_OK" = "确定";
+"Timeline_Cancel" = "取消";
+
+"Timeline_EnterNameSlogan" = "請輸入名稱:";
+//电量报警
+"Timeline_PowerAlarm" = "當前電量無法完成整個運行， 請更換電車或接入USB";
+"Timeline_NoDeviceWarning" = "找不到設備";
+"Timeline_Preparing" = "準備中...";
+"Timeline_ReturnZero" = "回零中...";
+"Timeline_HasFinished" = "已經完成";
+"Timeline_AddRightFramesWarning" = "請添加正確的關鍵幀";
+"Timeline_WarmTips" = "溫馨提示";
+"Timeline_ReturnToStart" = "回到起點";
+
+
+//TargetControl
+"Target_Running" = "開始運行";
+"Target_Preparing" = "準備中...";
+"Target_AngelError" = "角度設置錯誤!!!";
+
+"Target_ABNoSettings" = "AB點未設置";
+"Target_ANoSettings" = "A點未設置";
+"Target_BNoSettings" = "B點未設置";
+//Settings
+"Setting_Updatefirmware" = "更新固件";
+"Setting_NoUpdates" = "沒有更新";
+"Setting_S1Disconnected" = "Slide module 未連接";
+"Setting_X2Disconnected" = "X2 mini 未連接";
+"Setting_Stop" = "停止";
+"Settint_Notice" = "提示:如果出現長時間進度條不動, 請按停止鍵之後重新升級, 必要的時候重啟App";
+
+"Setting_ShootingMode" = "延時拍攝模式";
+"Setting_DisplayUnit" = "播放指示器";
+"Setting_NumberofTrackInstalled" = "導軌對接節數";
+"Setting_sectionsNumber" = "節數";
+"Setting_notice" = "注意";
+
+"Setting_Selectunit" = "選擇設備";
+"Setting_Cancel" = "取消";
+
+
+"Stiching_CameraSensor" = "傳感器尺寸";
+"Stiching_AspectRation" = "相片比例";
+"Stiching_FocalLength" = "鏡頭焦距(mm)";
+"Stiching_Interval" = "間隔時間(s)";
+"Stiching_Grid" = "矩陣模式";
+"Stiching_Pano" = "全景模式";
+"Stiching_Pictures" = "拍攝張數";
+"Stiching_RunTime" = "運行時間";
+
+"LoginVC_SignIn" = "登錄";
+"LoginVC_EmailAddress" = "郵箱地址";
+"LoginVC_Password" = "密碼";
+"LoginVC_ForgotPassword" = "忘記密碼";
+"LoginVC_SignUp" = "註冊";
+"LoginVC_NOaccount" = "還沒有註冊賬號？";
+"LoginVC_EmailNull" = "郵箱不能為空";
+"LoginVC_PasswordNull" = "密碼不能為空";
+"LoginVC_waiting" = "稍等...";
+"LoginVC_LoginFailed" = "登錄失敗";
+
+
+"SignUpVC_SignUp" = "註冊";
+"SignUpVC_EmailAddress" = "郵箱地址";
+"SignUpVC_VerificationCode" = "驗證碼";
+"SignUpVC_GetCode" = "獲取驗證碼";
+"SignUpVC_Password" = "密碼";
+"SignUpVC_ConfirmPassword" = "重新驗證密碼";
+"SignUpVC_HaveAccount" = "已經註冊賬號？";
+"SignUpVC_SignIn" = "去登錄";
+"SignUpVC_EmailNull" = "郵箱不能為空";
+"SignUpVC_Error" = "錯誤";
+"SignUpVC_resend" = "重新獲取";
+"SignUpVC_CodeNULL" = "驗證碼不能為空";
+
+"ForgotPwdVC_ForgotPassword" = "忘記密碼";
+"ForgotPwdVC_EmailAddress" = "郵箱地址";
+"ForgotPwdVC_Verification" = "驗證碼";
+"ForgotPwdVC_GetCode" = "獲取驗證碼";
+"ForgotPwdVC_Password" = "密碼";
+"ForgotPwdVC_Next" = "下一步";
+"ForgotPwdVC_Cancel" = "取消";
+"ForgotPwdVC_EmailNULL" = "郵箱不能為空";
+"ForgotPwdVC_error" = "錯誤";
+"ForgotPwdVC_resend" = "重新獲取";
+
+"LeftVC_logout" = "登出";
+"Tutorials" = "教程";
+
+//更新提示
+"Main_UpdateCancel"          = "不再提示";
+"Main_UpdateOK"              = "去更新";
+
+"Main_isRunningTimeline" = "正在運行關鍵幀模式";
+"Main_isRunningTargetControl" = "正在運行聚焦模式";
+"Main_isRunningGigaplexl" = "正在運行矩陣模式";
+"Main_isRunningPanorama"  = "正在運行矩陣模式";
