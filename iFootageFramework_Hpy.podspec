@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
 
 
   s.name         = "iFootageFramework_Hpy"
-  s.version      = "0.0.1"
+  s.version      = "1.0.0"
   s.summary      = "A short description of iFootageFramework_Hpy."
 
   s.description  = <<-DESC
@@ -62,7 +62,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/414039949/iFootageFramework.git", :tag => "{s.version}" }
+  s.source       = { :git => "https://github.com/414039949/iFootageFramework.git", :tag => "v1.0.0" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
