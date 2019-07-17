@@ -290,25 +290,15 @@
 		0BC07B0F22DDA73E008AEB09 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BC078D322DDA739008AEB09 /* SVIndefiniteAnimatedView.m */; };
 		0BC07B1022DDA73E008AEB09 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0BC078D422DDA739008AEB09 /* SVProgressHUD.bundle */; };
 		0BC07B1122DDA73E008AEB09 /* SVProgressAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BC078D522DDA739008AEB09 /* SVProgressAnimatedView.h */; };
-		0BC07B1222DDA73E008AEB09 /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BC078D722DDA739008AEB09 /* AFSecurityPolicy.h */; };
-		0BC07B1322DDA73E008AEB09 /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BC078D822DDA739008AEB09 /* AFNetworkReachabilityManager.h */; };
-		0BC07B1422DDA73E008AEB09 /* AFHTTPRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BC078D922DDA739008AEB09 /* AFHTTPRequestOperation.h */; };
-		0BC07B1522DDA73E008AEB09 /* AFHTTPRequestOperationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BC078DA22DDA739008AEB09 /* AFHTTPRequestOperationManager.h */; };
-		0BC07B1622DDA73E008AEB09 /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BC078DB22DDA739008AEB09 /* AFURLSessionManager.h */; };
-		0BC07B1722DDA73E008AEB09 /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BC078DC22DDA739008AEB09 /* AFURLRequestSerialization.h */; };
-		0BC07B1822DDA73E008AEB09 /* AFURLConnectionOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BC078DD22DDA739008AEB09 /* AFURLConnectionOperation.h */; };
 		0BC07B1922DDA73E008AEB09 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BC078DE22DDA739008AEB09 /* AFURLResponseSerialization.m */; };
 		0BC07B1A22DDA73E008AEB09 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BC078DF22DDA739008AEB09 /* AFHTTPSessionManager.m */; };
 		0BC07B1B22DDA73E008AEB09 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BC078E022DDA739008AEB09 /* AFURLConnectionOperation.m */; };
-		0BC07B1C22DDA73E008AEB09 /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BC078E122DDA739008AEB09 /* AFURLResponseSerialization.h */; };
 		0BC07B1D22DDA73E008AEB09 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BC078E222DDA739008AEB09 /* AFURLSessionManager.m */; };
 		0BC07B1E22DDA73E008AEB09 /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BC078E322DDA739008AEB09 /* AFHTTPRequestOperationManager.m */; };
 		0BC07B1F22DDA73E008AEB09 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BC078E422DDA739008AEB09 /* AFURLRequestSerialization.m */; };
 		0BC07B2022DDA73E008AEB09 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BC078E522DDA739008AEB09 /* AFHTTPRequestOperation.m */; };
-		0BC07B2122DDA73E008AEB09 /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BC078E622DDA739008AEB09 /* AFNetworking.h */; };
 		0BC07B2222DDA73E008AEB09 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BC078E722DDA739008AEB09 /* AFNetworkReachabilityManager.m */; };
 		0BC07B2322DDA73E008AEB09 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BC078E822DDA739008AEB09 /* AFSecurityPolicy.m */; };
-		0BC07B2422DDA73E008AEB09 /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BC078E922DDA739008AEB09 /* AFHTTPSessionManager.h */; };
 		0BC07B2522DDA73E008AEB09 /* Secret_X2_V_1.9.bin in Resources */ = {isa = PBXBuildFile; fileRef = 0BC078EB22DDA739008AEB09 /* Secret_X2_V_1.9.bin */; };
 		0BC07B2622DDA73E008AEB09 /* Secret_Slider_V_1.8.bin.cpgz in Resources */ = {isa = PBXBuildFile; fileRef = 0BC078EC22DDA739008AEB09 /* Secret_Slider_V_1.8.bin.cpgz */; };
 		0BC07B2722DDA73E008AEB09 /* iVersion.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BC078EE22DDA739008AEB09 /* iVersion.h */; };
@@ -726,11 +716,6 @@
 		0BC07CC322DDA73F008AEB09 /* iFPeripheralCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BC07AB222DDA73D008AEB09 /* iFPeripheralCell.h */; };
 		0BC07CC422DDA73F008AEB09 /* ListView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BC07AB322DDA73D008AEB09 /* ListView.h */; };
 		0BC07CC522DDA73F008AEB09 /* iFPeripheralCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BC07AB422DDA73D008AEB09 /* iFPeripheralCell.m */; };
-		0BC07CC722DDA7A1008AEB09 /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BC07CC622DDA7A1008AEB09 /* AFNetworking.framework */; };
-		0BC07CC922DDA7A7008AEB09 /* LuaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BC07CC822DDA7A7008AEB09 /* LuaScriptCore.framework */; };
-		0BC07CCB22DDA7AC008AEB09 /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BC07CCA22DDA7AC008AEB09 /* Masonry.framework */; };
-		0BC07CCD22DDA7B0008AEB09 /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BC07CCC22DDA7B0008AEB09 /* ReactiveCocoa.framework */; };
-		256B838A70271652DD6DBDE2 /* Pods_iFootageFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F0493AD8B5DB006805D87C0 /* Pods_iFootageFramework.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -1471,11 +1456,6 @@
 		0BC07AB222DDA73D008AEB09 /* iFPeripheralCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iFPeripheralCell.h; sourceTree = "<group>"; };
 		0BC07AB322DDA73D008AEB09 /* ListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListView.h; sourceTree = "<group>"; };
 		0BC07AB422DDA73D008AEB09 /* iFPeripheralCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iFPeripheralCell.m; sourceTree = "<group>"; };
-		0BC07CC622DDA7A1008AEB09 /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0BC07CC822DDA7A7008AEB09 /* LuaScriptCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = LuaScriptCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0BC07CCA22DDA7AC008AEB09 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0BC07CCC22DDA7B0008AEB09 /* ReactiveCocoa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ReactiveCocoa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0F0493AD8B5DB006805D87C0 /* Pods_iFootageFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iFootageFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB20DBFD4E60843D5B0BC0CD /* Pods-iFootageFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iFootageFramework.release.xcconfig"; path = "Pods/Target Support Files/Pods-iFootageFramework/Pods-iFootageFramework.release.xcconfig"; sourceTree = "<group>"; };
 		B77E0EF4B0F8409FB60EBFE3 /* Pods-iFootageFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iFootageFramework.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iFootageFramework/Pods-iFootageFramework.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -1485,11 +1465,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0BC07CCD22DDA7B0008AEB09 /* ReactiveCocoa.framework in Frameworks */,
-				0BC07CCB22DDA7AC008AEB09 /* Masonry.framework in Frameworks */,
-				0BC07CC922DDA7A7008AEB09 /* LuaScriptCore.framework in Frameworks */,
-				0BC07CC722DDA7A1008AEB09 /* AFNetworking.framework in Frameworks */,
-				256B838A70271652DD6DBDE2 /* Pods_iFootageFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2983,11 +2958,6 @@
 		0CFD50EC418EB4D9823A86D3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0BC07CCC22DDA7B0008AEB09 /* ReactiveCocoa.framework */,
-				0BC07CCA22DDA7AC008AEB09 /* Masonry.framework */,
-				0BC07CC822DDA7A7008AEB09 /* LuaScriptCore.framework */,
-				0BC07CC622DDA7A1008AEB09 /* AFNetworking.framework */,
-				0F0493AD8B5DB006805D87C0 /* Pods_iFootageFramework.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -3014,14 +2984,11 @@
 				0BC07C5922DDA73F008AEB09 /* iFFocusSlideView.h in Headers */,
 				0BC07C5622DDA73F008AEB09 /* iFForgotPwdViewController.h in Headers */,
 				0BC07C4722DDA73F008AEB09 /* iFAccountRootViewController.h in Headers */,
-				0BC07B1722DDA73E008AEB09 /* AFURLRequestSerialization.h in Headers */,
 				0BC07BFB22DDA73E008AEB09 /* iFUpdateBtn.h in Headers */,
-				0BC07B2122DDA73E008AEB09 /* AFNetworking.h in Headers */,
 				0BC07AEA22DDA73D008AEB09 /* iFModelDefine.h in Headers */,
 				0BC07AF322DDA73D008AEB09 /* UIViewController+MMDrawerController.h in Headers */,
 				0BC07AC922DDA73D008AEB09 /* DXPopover.h in Headers */,
 				0BC06F4A22DD6569008AEB09 /* iFS1A3_SavePathViewController.h in Headers */,
-				0BC07B1222DDA73E008AEB09 /* AFSecurityPolicy.h in Headers */,
 				0BC07AE922DDA73D008AEB09 /* iFPrefixDefine.h in Headers */,
 				0BC07C0F22DDA73F008AEB09 /* iFSquareViewController.h in Headers */,
 				0BC06A8022DD60DF008AEB09 /* LGDrawer.h in Headers */,
@@ -3031,7 +2998,6 @@
 				0BC07AF122DDA73D008AEB09 /* MMDrawerVisualState.h in Headers */,
 				0BC07AEE22DDA73D008AEB09 /* MMExampleDrawerVisualStateManager.h in Headers */,
 				0BC06A8E22DD60DF008AEB09 /* iFRootViewController.h in Headers */,
-				0BC07B1822DDA73E008AEB09 /* AFURLConnectionOperation.h in Headers */,
 				0BC07ABF22DDA73D008AEB09 /* iFProgressView.h in Headers */,
 				0BC064EB22DD6003008AEB09 /* iFootageFramework.h in Headers */,
 				0BC06F6822DD6569008AEB09 /* iFS1A3_StitchingViewController.h in Headers */,
@@ -3045,12 +3011,10 @@
 				0BC07C8B22DDA73F008AEB09 /* iFMainView.h in Headers */,
 				0BC07C1F22DDA73F008AEB09 /* iFTransmitViewController.h in Headers */,
 				0BC07C8E22DDA73F008AEB09 /* UIButton+ImageTitleSpacing.h in Headers */,
-				0BC07B1322DDA73E008AEB09 /* AFNetworkReachabilityManager.h in Headers */,
 				0BC07C5122DDA73F008AEB09 /* iFLoginViewController.h in Headers */,
 				0BC07B0122DDA73E008AEB09 /* MJRefreshConst.h in Headers */,
 				0BC07AC722DDA73D008AEB09 /* iFLoopView.h in Headers */,
 				0BC07CBC22DDA73F008AEB09 /* iFSettingViewController.h in Headers */,
-				0BC07B1422DDA73E008AEB09 /* AFHTTPRequestOperation.h in Headers */,
 				0BC06F3C22DD6569008AEB09 /* iFS1A3_DialerView.h in Headers */,
 				0BC07CA122DDA73F008AEB09 /* iFStatusBarView.h in Headers */,
 				0BC07C2022DDA73F008AEB09 /* iFAdjustVelocView.h in Headers */,
@@ -3072,7 +3036,6 @@
 				0BC06F6922DD6569008AEB09 /* iFS1A3_PanoViewController.h in Headers */,
 				0BC06F4C22DD6569008AEB09 /* iFS1A3_Model.h in Headers */,
 				0BC07B0722DDA73E008AEB09 /* iFAllImageNameDefine.h in Headers */,
-				0BC07B1622DDA73E008AEB09 /* AFURLSessionManager.h in Headers */,
 				0BC07BF822DDA73E008AEB09 /* iFGetDataTool.h in Headers */,
 				0BC07CAB22DDA73F008AEB09 /* iFFramePickerView.h in Headers */,
 				0BC07C3B22DDA73F008AEB09 /* iFootageRocker.h in Headers */,
@@ -3129,7 +3092,6 @@
 				0BC07CAD22DDA73F008AEB09 /* iFTitle_ValueView.h in Headers */,
 				0BC07C8522DDA73F008AEB09 /* iFVersionView.h in Headers */,
 				0BC07C4D22DDA73F008AEB09 /* iFTextField.h in Headers */,
-				0BC07B1C22DDA73E008AEB09 /* AFURLResponseSerialization.h in Headers */,
 				0BC07C8A22DDA73F008AEB09 /* iFCirlePanoVIew.h in Headers */,
 				0BC07C9A22DDA73F008AEB09 /* iFFunctionPicker.h in Headers */,
 				0BC07C1B22DDA73F008AEB09 /* ModuleParatemCellTableViewCell.h in Headers */,
@@ -3143,7 +3105,6 @@
 				0BC07C0C22DDA73F008AEB09 /* iFgetAxisY.h in Headers */,
 				0BC07AE722DDA73D008AEB09 /* iFTimer.h in Headers */,
 				0BC07ACB22DDA73D008AEB09 /* iFLabel.h in Headers */,
-				0BC07B2422DDA73E008AEB09 /* AFHTTPSessionManager.h in Headers */,
 				0BC07C0622DDA73F008AEB09 /* iFCommuityViewController.h in Headers */,
 				0BC07C1222DDA73F008AEB09 /* iFPanoramaViewController.h in Headers */,
 				0BC06F5422DD6569008AEB09 /* iFSliderView.h in Headers */,
@@ -3165,7 +3126,6 @@
 				0BC07C7022DDA73F008AEB09 /* iFSmoothnessView.h in Headers */,
 				0BC07C9722DDA73F008AEB09 /* iFBackImageView.h in Headers */,
 				0BC07ABC22DDA73D008AEB09 /* SendDataView.h in Headers */,
-				0BC07B1522DDA73E008AEB09 /* AFHTTPRequestOperationManager.h in Headers */,
 				0BC07CBB22DDA73F008AEB09 /* iFBazierView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -3686,7 +3646,6 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-iFootageFramework-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -4039,7 +3998,7 @@
 				GCC_PREFIX_HEADER = "$(SRCROOT)/iFootageFramework/Main/Tools/iFHeader.pch";
 				INFOPLIST_FILE = iFootageFramework/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -4047,7 +4006,7 @@
 				);
 				LINK_WITH_STANDARD_LIBRARIES = NO;
 				MACH_O_TYPE = staticlib;
-				OTHER_CODE_SIGN_FLAGS = "-fembed-bitcode";
+				OTHER_CODE_SIGN_FLAGS = "";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -4110,7 +4069,7 @@
 				GCC_PREFIX_HEADER = "$(SRCROOT)/iFootageFramework/Main/Tools/iFHeader.pch";
 				INFOPLIST_FILE = iFootageFramework/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -4118,7 +4077,7 @@
 				);
 				LINK_WITH_STANDARD_LIBRARIES = NO;
 				MACH_O_TYPE = staticlib;
-				OTHER_CODE_SIGN_FLAGS = "-fembed-bitcode";
+				OTHER_CODE_SIGN_FLAGS = "";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
